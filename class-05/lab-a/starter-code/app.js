@@ -28,9 +28,9 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+// let product = a*b ; 
+// return [product , `The product of ${a} and ${b} is ${product}.`]
 }
-
 // Here is the test for multiply(); uncomment it to run it
 // testMultiply(5,9);
 
@@ -49,6 +49,9 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
+// let sum = a+b+c;
+// let product = a*b*c ; 
+// return [sum ,product , `${a} and ${b} and ${c} sum to ${sum}.`,`The product of ${a} and ${b} and ${c} is ${product}.`]
 
 }
 
@@ -71,7 +74,12 @@ Test this function by hand in the console to get it working, and when you think 
 let testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
-
+//   let sum =0 
+//   for (let i=0 ;i<sumArr.length; i++){
+//     sum = sum + sumArr[i]
+    
+// }
+//   return [sum ,`${sumArr} was passed in as an array of numbers, and ${sum} is their sum.`]
 }
 
 // Here is the test for sumArray(); uncomment it to run it
@@ -92,6 +100,11 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
+// let product = 1
+// for (let i=0;i<multArr.length;i++){
+//   product = product*multArr[i]  
+// }
+// return [product,`The numbers ${multArr} have a product of ${product}.`]
 
 }
 
@@ -120,7 +133,12 @@ Test this function by hand in the console to get it working, and when you think 
 let testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
 
 function multiplyAnyArray(dynamicArray) { //eslint-disable-line
-
+//   let product = 1
+//   for (let i=0;i<dynamicArray.length;i++){
+//     product = product*dynamicArray[i]  
+//   }
+//   return [product,`The numbers ${dynamicArray} have a product of ${product}.`]
+  
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
